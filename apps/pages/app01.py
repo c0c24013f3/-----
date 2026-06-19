@@ -9,7 +9,7 @@ st.write("テキストの練習")
 
 # 图片
 try:
-    image = Image.open("data/画像.png")
+    image = Image.open("apps/data/画像.png")
     st.image(image, caption="サンプル画像")
 except FileNotFoundError:
     st.warning("画像.pngが見つかりません")
