@@ -14,7 +14,7 @@ with col1:
 with col2:
     st.subheader("画像表示")
     try:
-        image = Image.open("data/画像.png")
+        image = Image.open("apps/data/画像.png")
         st.image(image)
     except FileNotFoundError:
         st.warning("画像.pngを配置してください")
